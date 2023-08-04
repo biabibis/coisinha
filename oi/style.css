@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    height: 60px;
+    padding: 020px;  
+}
+
+.home{
+
+    margin-top: 40px;
+    padding: 20px;
+    color: whitesmoke;
+}
+button{
+    margin-top: 30px;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    border-width: 10px;
+
+}
+
+.logo h1 {
+    color: white;
+    font-size: 35px;
+    line-height:60px;
+    padding-left:100px
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li a {
+   display: block;
+   padding: 30px;
+   color:white;
+   text-decoration:underline;
+}
+
+body {
+    text-align: center ;
+    background-image: url(img/gugu);
+    background-size: cover;
+    background-attachment: fixed;
+}
